@@ -1,28 +1,9 @@
-# Contractor Quote Check - MCP Server
+# Contractor Quote Check — Retired
 
-Check a contractor quote for red flags, missing scope items and pricing risks.
-Free scan; paid detailed reports. Also exposes RFP extraction, permit
-checklists and compliance calendars for small businesses.
+**Status: retired / no longer being pursued as a standalone AI product.**
 
-## Connect
+This project was an experiment in contractor-quote analysis, RFP extraction, permit checklists, and compliance calendars. We determined that the core contractor-quote and RFP-analysis functions are too easily reproduced with general-purpose AI by uploading the source document directly.
 
-This is a **remote MCP server** (streamable HTTP), listed in the
-[official MCP registry](https://registry.modelcontextprotocol.io/v0/servers?search=contractor-quote-check)
-as `com.checkmycontractorquote/contractor-quote-check`.
+The product is therefore not part of the active VentureOS product portfolio and should not receive new development, marketing, outreach, or monetization work.
 
-Endpoint:
-
-```
-https://checkmycontractorquote.com/contractorquote-mcp/mcp
-```
-
-Claude Desktop / Claude.ai: add a custom connector with the URL above.
-Any MCP client: use the streamable-http transport.
-
-## Tools
-
-See the live catalog: https://checkmycontractorquote.com/contractorquote-mcp/tools
-
-## Website
-
-https://checkmycontractorquote.com/passive-store/
+Useful infrastructure or research from this experiment may be reused in future products only when the resulting product has a defensible advantage such as live external data, authenticated actions, persistent monitoring, proprietary workflow state, or a specialized network.
